@@ -14,10 +14,10 @@ Just Make a plain GET request to logout
 
 Search Route:-
 /search_user  [For all records]
-/search_user/<querySTring>
+/search_user/[querySTring]
 Make get request
 ***fname, lname and employeeID are searchable
-querySTring = fname=<fname>&lname=<fname>&emplyeeID=<emplyeeID>
+querySTring = fname=[fname]&lname=[fname]&emplyeeID=[emplyeeID]
 
 ***fname, lname, employeeID, email, orgName are orderable
 querySTring = fname=$1&lname=$-1
